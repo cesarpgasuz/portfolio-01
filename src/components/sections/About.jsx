@@ -1,6 +1,6 @@
 function About() {
   return (
-    <div>About</div>
+    <div><p>Esta es una pequeña descripcion</p></div>
   )
 }
 
