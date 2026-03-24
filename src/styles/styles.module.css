@@ -1,0 +1,9 @@
+.profile {
+  position: absolute;
+  top: 138px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.slaches {
+    color: #F53D53;
+}
