@@ -1,4 +1,11 @@
+@import "./styles/fonts.css";
 @import "tailwindcss";
+
+@theme {
+    --font-tw-cen-mt: 'TwCenMT', sans-serif;
+    --font-inter: 'Inter', sans-serif;
+    --color-gris-primario: #6D6D6D;
+}
 
 @layer components {
     .contenedor {
