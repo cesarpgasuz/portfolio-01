@@ -11,5 +11,14 @@
   transform: translate(-50%, -50%);
 }
 .slaches {
-    color: #F53D53;
+    color: var(--color-rosa-primario);
+}
+.kurumiProyectos{
+  width: 229px;
+  min-width: 229px;
+  height: auto;
+  bottom: 0;
+  left: -80px;
+  position: absolute;
+ 
 }

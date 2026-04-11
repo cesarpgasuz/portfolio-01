@@ -5,6 +5,7 @@
     --font-tw-cen-mt: 'TwCenMT', sans-serif;
     --font-inter: 'Inter', sans-serif;
     --color-gris-primario: #6D6D6D;
+    --color-rosa-primario: #ED3C4C;
 }
 
 @layer components {
