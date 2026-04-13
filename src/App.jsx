@@ -2,6 +2,7 @@ import Header from "./components/sections/Header"
 import Proyects from "./components/sections/Proyects"
 import About from "./components/sections/About"
 import Experience from "./components/sections/Experience"
+import LandingPages from "./components/sections/LandingPages"
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <About />
       <Proyects />
+      <LandingPages />
       <Experience />
     </>
   )
