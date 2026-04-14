@@ -22,3 +22,11 @@
   position: absolute;
  
 }
+.kurumiSkills {
+  width: 241px;
+  min-width: 241px;
+  height: auto;
+  bottom: 0;
+  right: -85px;
+  position: absolute;
+}

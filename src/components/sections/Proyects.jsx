@@ -28,7 +28,7 @@ function Proyects() {
         </div>
         <div className='w-1/2'>
           <div className='relative -left-[35px] pt-[30px] min-w-[176px]'>
-            <h2 className='text-[32px] font-tw-cen-mt uppercase text-black text-right'>Pro<span className='text-white'>yectos</span></h2>
+            <h2 className='text-[32px] font-tw-cen-mt uppercase text-black text-right font-bold'>Pro<span className='text-white'>yectos</span></h2>
             <p className='text-xs font-inter italic text-black mt-2 leading-[200%] hidden'>Aquí puedes ver algunos de los proyectos en los que he trabajado.</p>
             <div className='flex flex-col gap-4 mt-6'>
               {proyectos.map((proyecto) => (
