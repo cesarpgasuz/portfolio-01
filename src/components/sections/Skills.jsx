@@ -10,7 +10,7 @@ function Skills() {
             
            
               <div className='w-3/4 min-w-[216px] pt-[30px] relative z-10'>
-                <h2 className='text-[32px] font-tw-cen-mt uppercase text-black text-left font-bold'>TECNOLOGIAS</h2>
+                <h2 className='text-[32px] font-tw-cen-mt uppercase text-black text-left'>TECNOLOGIAS</h2>
                 <p className='font-inter text-sm mt-2.5 mb-4 leading-[200%]'>Estas son las herramientas y tecnologías que utilizo en mi dia a dia.</p>
                 <div className='flex flex-wrap gap-2'>
                     {SKILLS.map((skill) => {

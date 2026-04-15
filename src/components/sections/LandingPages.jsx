@@ -9,7 +9,7 @@ function LandingPages() {
             <div className='w-[227px] h-auto mx-auto'>
                 <img src={ImagenQueen} alt='queen' className='w-full h-auto' />
             </div>
-            <h2 className='text-[32px] font-tw-cen-mt uppercase text-black text-center mx-auto mt-5 font-bold'>landingpages</h2>
+            <h2 className='text-[32px] font-tw-cen-mt uppercase text-black text-center mx-auto mt-5'>landingpages</h2>
             <p className='text-sm font-inter text-black mt-2 leading-[200%] text-center mb-10'><strong>Dicen que la práctica hace al maestro;</strong> aquí puedes ver la evolución de mi trabajo a través de cada landing page que he construido.</p>
             <div className='grid gap-5'>
                 {LANDINGPAGES.map((landingpage) => (

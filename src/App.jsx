@@ -5,6 +5,7 @@ import Experience from "./components/sections/Experience"
 import LandingPages from "./components/sections/LandingPages"
 import Skills from "./components/sections/Skills"
 import DisenoWeb from "./components/sections/DisenoWeb"
+import Contact from "./components/sections/Contact"
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
       <LandingPages />
       <Skills />
       <DisenoWeb />
+      <Contact />
     </>
   )
 }
