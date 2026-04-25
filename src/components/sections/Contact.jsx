@@ -12,7 +12,7 @@ function Contact() {
 
     // 1. Enviar Mensaje (Abre el gestor de correo)
     const handleSendMessage = () => {
-        window.location.href = `mailto:${email}?subject=Contacto desde tu Portfolio`;
+        window.location.href = `mailto:${email}?subject=He visto tu portfolio y me gustaría discutir sobre tu trabajo`;
     };
 
     // 2. Copiar Correo al portapapeles
@@ -62,7 +62,7 @@ function Contact() {
         const url = window.URL.createObjectURL(blob);
         const link = document.createElement("a");
         link.href = url;
-        link.setAttribute("download", "Contacto_Cesar_Garcia.vcf");
+        link.setAttribute("download", "Contacto_Cesar_Pablo_Garcia_Suarez.vcf");
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);

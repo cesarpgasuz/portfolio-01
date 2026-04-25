@@ -10,15 +10,7 @@ import Contact from "./components/sections/Contact"
 function App() {
 
   return (
-    <>
-      <Header />
-      <About />
-      <Proyects />
-      <LandingPages />
-      <Skills />
-      <DisenoWeb />
-      <Contact />
-    </>
+    <>jj</>
   )
 }
 
