@@ -9,5 +9,5 @@ export default defineConfig({
     tailwindcss()
   ],
 
-  base: 'https://cesar-cortes.github.io/portfolio-1/',
+  base: 'https://cesarpgasuz.github.io/portfolio-01/',
 })
