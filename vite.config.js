@@ -8,4 +8,6 @@ export default defineConfig({
     react(),
     tailwindcss()
   ],
+
+  base: 'https://cesar-cortes.github.io/portfolio-1/',
 })
