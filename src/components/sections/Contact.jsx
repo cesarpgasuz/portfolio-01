@@ -7,8 +7,8 @@ const CURRENT_YEAR = new Date().getFullYear();
 
 function Contact() {
     const [copied, setCopied] = useState(false);
-    const email = "cesarpgasuz@gmail.com";
-    const webUrl = "https://cesarpgasuz.dev";
+    const email = "cesarxgs@hotmail.com";
+    const webUrl = "https://cesarjsx.site";
 
     // 1. Enviar Mensaje (Abre el gestor de correo)
     const handleSendMessage = () => {
@@ -50,7 +50,7 @@ function Contact() {
         const vCardContent = [
             "BEGIN:VCARD",
             "VERSION:3.0",
-            "FN:Cesar Pablo Garcia Suarez",
+            "FN:Cesar  Garcia Suarez",
             "TITLE:Frontend Developer",
             "TEL;TYPE=CELL:4191389032",
             `EMAIL;TYPE=INTERNET:${email}`,
@@ -74,7 +74,7 @@ function Contact() {
             <div className='contenedor'>
                 <h2 className='font-tw-cen-mt text-[32px] mb-8 uppercase text-center text-black'>Contacto</h2>
                 <p className={`${styles.correoReverse} text-center font-inter`}>
-                    moc.liamg@zusagprasec
+                    moc.liamtoh@sgxrasec
                 </p>
                 
                 <div className='grid gap-3 mt-8 font-inter'>
@@ -116,8 +116,8 @@ function Contact() {
                 </div>
 
                 <div className='pt-[80px]'>
-                    <img src={ImageCat} alt='imagen de una gato' className='size-[83px] mx-auto' />
-                    <p className={`text-center text-sm text-black mt-6 `}>Copyright © {CURRENT_YEAR} - cesarpgasuz.dev</p>
+                    <img src={ImageCat} alt='imagen de una gato' className='size-[83px] mx-auto' loading='lazy' decoding='async' />
+                    <p className={`text-center text-sm text-black mt-6 `}>Copyright © {CURRENT_YEAR} - cesarjsx.site</p>
                     <p className='text-center text-sm text-gris-primario mt-2'>Hecho en Guanajuato, México</p>
                 </div>
 

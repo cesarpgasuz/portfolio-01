@@ -26,7 +26,7 @@ function Skills() {
     
            
             <div className={`w-1/4 relative min-h-[270px] flex shrink-0 ${styles.kurumiSkills}`}>
-              <img src={ImageKurumi02} alt='imagen kurumi' />
+              <img src={ImageKurumi02} alt='imagen kurumi' loading='lazy' decoding='async' />
             </div>
           </div>
         </section>

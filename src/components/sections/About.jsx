@@ -4,7 +4,7 @@ import styles from '../../styles/styles.module.css'
 function About() {
   return (
     <section className='contenedor pb-[100px]'>
-      <img src={ImagenMiniKurumi} className='size-[115px] mx-auto' alt='imagen kurumi' />
+      <img src={ImagenMiniKurumi} className='size-[115px] mx-auto' alt='imagen kurumi' loading='lazy' decoding='async'/>
       <div className='flex flex-col gap-6 items-center mt-6 font-tw-cen-mt'>
         <a href='https://github.com/cesarpgasuz' target='_blank' rel='noopener noreferrer' className={`text-[32px] ${styles.slaches}`}><strong className='font-bold'>/</strong><span className='text-black uppercase'>github</span></a>
         <Link to='/acerca' className={`text-[32px] ${styles.slaches}`}><strong className='font-bold'>/</strong><span className='text-black uppercase'>acerca</span></Link>
